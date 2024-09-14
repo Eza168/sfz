@@ -1,3 +1,4 @@
+<?php
 if (isset($_GET['handler']) && $_GET['handler'] == 'fill') {
     echo '
     <!DOCTYPE html>
@@ -32,3 +33,4 @@ if (isset($_GET['handler']) && $_GET['handler'] == 'fill') {
     </html>';
     exit;
 }
+?>
